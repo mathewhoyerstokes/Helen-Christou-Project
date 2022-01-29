@@ -1,0 +1,45 @@
+Project one --- Add Tip jar to site
+
+- Everything that you do on the Blockchain is Public.
+- The blockchain is a database that we can only add to,and is like a ledger of everything that has ever been done.
+- Ethereum has smart contracts.
+
+
+what the project entails.
+
+- when i click this form > then i want to send some money to a certain account. 
+
+- starting with the JS and add a event to the form button (See tip.js)
+
+- if the user does not have a wallet then what do we want to do. we can use this code.
+
+if (window.ethereum) {
+    form.classList.add("has-eth")
+}
+
+the window.ethereum is injected into the page when you are using metamask. so we can use JS and say that if the user does not have a wallet then show a alert. 
+this could be replaced with alot of different things.
+if (window.ethereum) {
+        form.style.backgroundColor = "red"
+    } else {
+        alert("Please install a wallet")
+    }
+
+abstract the code by using a new const for the send function and then run it inside the submit function.
+
+- async function?
+
+- the value in ethereum is called a 'weig' we are going to use a libary to get the base(weig unit) the libary is 'web3.js'
+
+Ganache we can use to set up our own Blockchain
+
+
+
+
+
+
+    
+
+
+
+
