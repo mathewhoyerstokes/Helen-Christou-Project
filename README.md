@@ -1,5 +1,7 @@
 # Tipjar for ETH
 
+- Local enviroment = Open with Local-server in VScode/PhpStorm
+
 # Project details
 
 - basic tip jar that I can connect to with my wallet and make a tip, using states i have made
